@@ -9,6 +9,10 @@ func (a Animal) Say() {
 	println("-")
 }
 
+func (a Animal) SayColor() {
+	println(a.Color)
+}
+
 type Dog struct {
 	Animal
 }
