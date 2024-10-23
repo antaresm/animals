@@ -10,9 +10,12 @@ func main() {
 	dog.Color = "red"
 	dog.Weight = 10
 	dog.Say()
+	dog.SayColor()
 	dog.SayWeight()
 
 	cat := Cat{}
+	cat.Color = "black"
 	cat.Say()
+	cat.SayColor()
 
 }
