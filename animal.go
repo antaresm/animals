@@ -24,3 +24,7 @@ type Cat struct {
 func (c Cat) Say() {
 	println("Meow!")
 }
+
+func (a Animal) SayWeight() {
+	println(a.Weight)
+}
