@@ -16,3 +16,11 @@ type Dog struct {
 func (d Dog) Say() {
 	println("Waf!")
 }
+
+type Cat struct {
+	Animal
+}
+
+func (c Cat) Say() {
+	println("Meow!")
+}
